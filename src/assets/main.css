@@ -1,0 +1,29 @@
+@font-face {
+  font-family: JetBrains Mono Bold;
+  font-weight: bold;
+  src: url('~@/assets/fonts/static/JetBrainsMono-Bold.ttf') format('truetype');
+}
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-grey-950: #08070b;
+  --color-grey-900: #14131b;
+  --color-grey-850: #18171f;
+  --color-grey-800: #24232c;
+  --color-grey-700: #54535b;
+  --color-grey-600: #817d92;
+  --color-grey-200: #e6e5ea;
+  --color-green-200: #a4ffaf;
+  --color-yellow-300: #f8cd65;
+  --color-orange-400: #fb7c58;
+  --color-red-500: #f64a4a;
+  --color-gradient: linear-gradient(90deg, #14131b, #08070b);
+}
+
+.text-preset-1 {
+  font-family: 'JetBrains Mono Bold', monospace;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0;
+}
